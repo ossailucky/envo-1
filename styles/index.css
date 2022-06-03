@@ -48,16 +48,26 @@ body {
 }
 
 .hero header .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   color: white;
   width: 50%;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hero header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .hero header .nav .logo {
@@ -70,9 +80,12 @@ body {
 
 .hero header .nav-list {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .hero header .nav-list .nav-item {
@@ -92,14 +105,22 @@ body {
 }
 
 .hero .banner_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 700px;
 }
 
 .hero .banner_inner .left {
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero .banner_inner .left_wrapper {
@@ -126,9 +147,15 @@ body {
 
 .hero .banner_inner .right {
   background: #02250A;
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero .banner_inner .right_wrapper {
@@ -153,3 +180,187 @@ body {
   bottom: 0;
   right: 134px;
 }
+
+.why {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50px;
+}
+
+.why .left-why {
+  position: relative;
+  width: 45%;
+}
+
+.why .left-why .overlap-block {
+  position: absolute;
+  width: 552px;
+  height: 635px;
+  left: 30px;
+  background-color: #02250A;
+}
+
+.why .left-why .video {
+  position: relative;
+  bottom: 29px;
+  z-index: 1;
+}
+
+.why .right-why {
+  width: 45%;
+  margin-left: 50px;
+}
+
+.why .right-why h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58.09px;
+  width: 641px;
+  height: 116px;
+}
+
+.why .right-why p {
+  width: 572px;
+  height: 119px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+}
+
+.recent-report {
+  width: 1440px;
+  height: 809px;
+  background-color: #02250A;
+  margin-block: 115px;
+  margin-inline: 40px;
+}
+
+.recent-report .btn-white {
+  background-color: white;
+  color: #000;
+  margin-top: 85px;
+  margin-left: 43%;
+}
+
+.recent-report h2 {
+  width: 400px;
+  height: 58px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.09px;
+  color: #fff;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.recent-report .white-line {
+  width: 110px;
+  height: 11px;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.recent-report .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.recent-report .all-cards {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 300px;
+  height: 424px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.recent-report .all-cards .card {
+  padding: 10px;
+  position: relative;
+}
+
+.recent-report .all-cards .card img {
+  width: 276px;
+  height: 207px;
+}
+
+.recent-report .all-cards .card .river-p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.78px;
+  width: 174px;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.recent-report .all-cards .card .date {
+  width: 73px;
+  height: 17px;
+  font-size: 14px;
+  margin-left: 10px;
+  color: #5e5e5e;
+}
+
+.recent-report .all-cards .card p {
+  font-size: 14px;
+  line-height: 18.15px;
+  font-weight: 400;
+  width: 274px;
+  height: 86px;
+}
+
+.recent-report .all-cards .card .lga {
+  width: 81px;
+  height: 19px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+
+.niger .see {
+  width: 705px;
+  height: 116px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58.09px;
+  margin-left: 100px;
+}
+
+.niger .all-img {
+  margin: 20px;
+}
+
+.niger .all-img .images-1 {
+  width: 80%;
+  margin-inline: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.niger .all-img .images-1 img {
+  width: 317px;
+  height: 257px;
+  margin: 0;
+}
+
+.footer {
+  background-color: #02250A;
+  color: #fff;
+  height: 92px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.footer p {
+  text-align: center;
+  padding: 40px;
+}
+
+.footer p span {
+  font-weight: 700;
+  font-size: 18px;
+}
+/*# sourceMappingURL=index.css.map */
